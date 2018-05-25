@@ -27,7 +27,8 @@
                 <configuration>
                     <mainClass>com.zongzhang.EchoClient</mainClass>
                     <arguments>
-                        <argument>9999</argument>
+                        <argument>${echo-server.hostname}</argument>
+                        <argument>${echo-server.port}</argument>
                     </arguments>
                 </configuration>
             </plugin>

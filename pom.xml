@@ -12,7 +12,10 @@
 
     <packaging>pom</packaging>
     <name>root-code</name>
-
+    <properties>
+        <echo-server.hostname>localhost</echo-server.hostname>
+        <echo-server.port>8888</echo-server.port>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -50,6 +53,11 @@
                 <configuration>
                     <encoding>UTF-8</encoding>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.0.2</version>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>

@@ -25,6 +25,9 @@
                 </executions>
                 <configuration>
                     <mainClass>com.zongzhang.EchoServer</mainClass>
+                    <arguments>
+                        <argument>${echo-server.port}</argument>
+                    </arguments>
                 </configuration>
             </plugin>
         </plugins>
