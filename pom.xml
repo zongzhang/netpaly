@@ -8,6 +8,8 @@
     <modules>
         <module>chapter2/Client</module>
         <module>chapter2/Server</module>
+        <module>chapterc/client</module>
+        <module>chapterc/server</module>
     </modules>
 
     <packaging>pom</packaging>
