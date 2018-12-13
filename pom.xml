@@ -10,6 +10,7 @@
         <module>chapter2/Server</module>
         <module>chapterc/client</module>
         <module>chapterc/server</module>
+        <module>demo/websocket</module>
     </modules>
 
     <packaging>pom</packaging>
