@@ -25,11 +25,11 @@ public class EchoServer {
     }
 
     public static void main(String[] args) throws Exception {
-        if (args.length != 1) {
-            System.err.println("Usage: ");
-            return;
-        }
-        int port = Integer.parseInt(args[0]);
+//        if (args.length != 1) {
+//            System.err.println("Usage: ");
+//            return;
+//        }
+        int port = Integer.parseInt("8989");
         new EchoServer(port).start();
     }
 
