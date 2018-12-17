@@ -17,6 +17,7 @@ import io.netty.util.concurrent.GlobalEventExecutor;
 public class TextWebSocketFrameHandler extends SimpleChannelInboundHandler<WebSocketFrame> {
     private final ChannelGroup group;
 
+    //GlobalEventExecutor是一个单线程的EventExecutor 他会在他的线程延迟启动，在没用需要执行的任务后停止。
     private static final ChannelGroup allChannels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
 
     public TextWebSocketFrameHandler() {
